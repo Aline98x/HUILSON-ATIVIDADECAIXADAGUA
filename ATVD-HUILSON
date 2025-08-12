@@ -1,0 +1,17 @@
+import java.math.BigDecimal
+import java.time.LocalDate
+
+class Servico ( //Os 2 parenteses Construtor da Classe
+    val equipamentos: String,
+    val formaDePagamento: String,
+    val cliente: String,
+    val preço: BigDecimal,
+    val endereco: String,
+    val materialCaixa: String,
+    val dataAgendamento: LocalDate,
+    val tipoCaixaDagua: String,
+    val valorTotal: BigDecimal,
+    val valorMaoDeObra: BigDecimal
+//val dimensao : Array<Double>, //Altura, Largura
+)//Aqui vai Todos os atributos da classe
+{} 
